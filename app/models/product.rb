@@ -12,5 +12,5 @@ class Product < ActiveRecord::Base
   has_many :assets, :dependent => :destroy
   accepts_nested_attributes_for :assets, allow destroy => true# app/models/product.rb
   has_many :assets, :dependent => :destroy
-  accepts_nested_attributes_for :assets, allow destroy => true
+  accepts_nested_attributes_for :assets, :allow_destroy => true
 end
