@@ -9,6 +9,7 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
+gem 'dalli'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
