@@ -10,7 +10,7 @@ class Product < ActiveRecord::Base
   has_and_belongs_to_many :productivity_n_communications, :join_table => :products_productivity_n_communications
   # app/models/product.rb
   has_many :assets, :dependent => :destroy
-  accepts_nested_attributes_for :assets, allow destroy => true# app/models/product.rb
-  has_many :assets, :dependent => :destroy
-  accepts_nested_attributes_for :assets, :allow_destroy => true
+  accepts_nested_attributes_for :assets, :allow_destroy => true# app/models/product.rb
+  #has_many :assets, :dependent => :destroy
+  #accepts_nested_attributes_for :assets, :allow_destroy => true
 end
