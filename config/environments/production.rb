@@ -61,8 +61,8 @@ Mobilecurry::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
   config.assets.compile = true
-  config.cache_store = :dalli_store
-  config.action_dispatch.x_sendfile_header = "X-Sendfile"
+  #config.cache_store = :dalli_store
+  #config.action_dispatch.x_sendfile_header = "X-Sendfile"
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
